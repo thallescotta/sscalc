@@ -16,4 +16,3 @@ Referências:
 1. Brown, T. A. (2015). Confirmatory factor analysis for applied research.  New York: The Guilford Press.
 2. Ding, C. G. (1992). Algorithm AS 275: computing the non-central χ 2 distribution function. Journal of the Royal Statistical Society. Series C (Applied Statistics), 41(2), 478-482.
 3. Kim, K. H. (2005) The Relation Among Fit Indexes, Power, and Sample Size in Structural Equation Modeling. Structural Equation Modeling: A Multidisciplinary Journal, 12(3), 368-390. DOI: 10.1207/s15328007sem1203_2
-4. 

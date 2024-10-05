@@ -1,15 +1,15 @@
 Package: sscalc
 Type: Package
 Title: Sample Size Calculator
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Wan Nor",
            family = "Arifin",
            role = c("aut", "cre"),
-           email = "wnarifin@gmail.com",
+           email = "cfthalles@gmail.com",
            comment = c(ORCID = "0000-0001-7786-4251"))
 Author: Wan Nor Arifin [aut, cre]
-Maintainer: Wan Nor Arifin <wnarifin@gmail.com>
+Maintainer: Wan Nor Arifin <cfthalles@gmail.com>
 Description: This will host some R functions for Sample Size Calculator at https://wnarifin.github.io/ssc_web.html
 License: GPL (>= 3)
 Encoding: UTF-8

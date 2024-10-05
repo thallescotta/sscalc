@@ -1,18 +1,19 @@
 # sscalc
 
-## About
-OpenCPU implementation of my main Sample Size Calculator at https://wnarifin.github.io/ssc_web.html
+## Sobre
+Implementação OpenCPU da "Sample Size Calculator" que está em: https://wnarifin.github.io/ssc_web.html
 
-This is implemented for the sample size calculators for Structural Equation Modeling using RMSEA and CFI.
+Esta implementação é feita para as calculadoras de tamanho de amostra para Modelagem de Equações Estruturais utilizando RMSEA e CFI.
 
-As these require accurate implementation of Ding's algorithm to calculate noncentral chi-squared distribution (then noncentrality parameter ncp for given df using Kim's algorithm), it relies on qchisq() in R. Javascript implementation of Ding's algorithm cannot handle large df.
+Como essas calculadoras requerem a implementação precisa do algoritmo de Ding para calcular a distribuição qui-quadrado não central (e então o parâmetro de não centralidade ncp para um determinado grau de liberdade usando o algoritmo de Kim), elas dependem da função `qchisq()` em R. A implementação em Javascript do algoritmo de Ding não consegue lidar com grandes graus de liberdade (conceito utilizado para descrever a quantidade de valores independentes que podem variar em uma análise).
 
-I use opencpu as an alternative to Shiny, which I find quite slow to load.
+É usado OpenCPU como uma alternativa ao 'Shiny', que o programador/autor considera bastante lento para carregar.
 
-Please find the available functions in `R/ss_sem_fun.R`, and the examples in `long_example/ss_sem_examples.R`. I will write a proper manual / documentation later.
+As funções disponíveis podem ser encontradas em `R/ss_sem_fun.R`, e os exemplos em `long_example/ss_sem_examples.R`. 
 
-## References
-References:
+## Referências
+Referências:
 1. Brown, T. A. (2015). Confirmatory factor analysis for applied research.  New York: The Guilford Press.
 2. Ding, C. G. (1992). Algorithm AS 275: computing the non-central χ 2 distribution function. Journal of the Royal Statistical Society. Series C (Applied Statistics), 41(2), 478-482.
 3. Kim, K. H. (2005) The Relation Among Fit Indexes, Power, and Sample Size in Structural Equation Modeling. Structural Equation Modeling: A Multidisciplinary Journal, 12(3), 368-390. DOI: 10.1207/s15328007sem1203_2
+4. 
